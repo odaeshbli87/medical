@@ -1,0 +1,137 @@
+body{
+    background-color: #E4EBF2;
+    font-family: 'Tajawal', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: unset;
+}
+.dirLtr{
+    direction:ltr;
+}
+.delete a{
+    background-color: red;
+    padding: 2px 4px;
+    color: #fff;
+}
+.dci a{
+    background-color: green;
+    padding: 2px 4px;
+    color: #fff;
+}
+.update a{
+    background-color: blue;
+    padding: 2px 4px;
+    color: #fff;
+}
+.add-review a{
+    background-color: #3a3e63;
+    padding: 2px 4px;
+    color: #fff;
+}
+.management{
+    background-color:#dbe7f3;
+    width: 200px;
+    height: 35px;
+    margin: 7px 0 0 10px;
+    line-height: 34px;
+}
+.management i{
+    right: 0;  
+    position: absolute;
+    top: 0;
+    background: rgba(0,33,125,.1);
+    border: 0;
+    width: 34.25px;
+    height: 32.35px;
+    min-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 33px;
+    font-size: 20px;
+    margin: 0;
+    float: none;
+}
+.management:hover{
+    background-color: #dee5e7;
+    transition: all .5s ease-in-out;
+}
+.patientImg{
+    
+    border: 1px solid #dee5e7;
+    border-radius: 3px;
+    padding: 5px;
+    width: 200px;
+}
+
+ /*main page*/
+.msgbox{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(78,83,129,.1);
+    border-radius: 8px;
+    padding: 40px 30px;
+    margin: 0 0 20px;
+    border: 1px solid #f6f9fc;
+    color: #3a3e63;
+}
+.show{
+    display: none;
+}
+.ui-datepicker-trigger{
+position: absolute;
+top: 42px;
+left: 25px;
+}
+
+
+/* زر اليوم في datepicker */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current, .ui-datepicker-rtl .ui-datepicker-group {
+    float: right;
+    color: black;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{
+    font-family: 'Tajawal', sans-serif;
+}
+
+.ui-widget-content{
+    font-family: 'Tajawal', sans-serif;
+}
+.DiagnosisTreatmentImgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* ارتفاع المربع الذي يحتوي على الصورة */
+    border: 1px solid #ccc; /* للتوضيح فقط، يمكنك إزالته في الإنتاج */
+}
+.DiagnosisTreatmentImgDiv img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.ui-datepicker-trigger{
+    cursor: pointer;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*analysis laboratory*/
+#contCommonAnalysis , #contHEMATOLOGY , #contHEMATOLOGY , 
+#contBIOCHEMISTRY , #contHEMATOLOGY , #contSEROLOGY , 
+#contHORMONES , #contCOAGULATION , #contTUMORMARKERS , #contIMMUNOLOGY ,
+#contPREGNANCYTEST , #contURINE-and-STOOL-ANALYSIS , #contMICROBIOLOGY , 
+#contFLUID-ANALYSIS ,#contSEMINAL-FLUID-ANALYSIS , #contURINE24h{
+    display: none;
+}
+/*analysis laboratory*/
